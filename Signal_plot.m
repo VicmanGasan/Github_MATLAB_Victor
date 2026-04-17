@@ -5,7 +5,8 @@ close all
 t=0.01:0.01:10;
 x=10*sin(2*pi*0.5*t)+1*sin(2*pi*20*t);
 
-plot(t,x);
+plot(t,x,'*');
+  
 
 x_fft=abs(fft(x));
 
